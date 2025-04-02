@@ -3,9 +3,6 @@
 @section('titulo', 'Editar post')
 
 @section('contenido')
-    <div class="text-center">
-        <h1 class="m-5">Editar un Posts</h1>
-    </div>
     <form action="{{route('posts.update', $post->id)}}" method="POST">
         @csrf
         <div class="row">

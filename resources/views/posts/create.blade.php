@@ -3,9 +3,6 @@
 @section('titulo', 'Crear post')
 
 @section('contenido')
-    <div class="text-center">
-        <h1 class="m-5">Crear un Posts</h1>
-    </div>
     <form action="{{route('posts.store')}}" method="POST">
         @csrf
         <div class="row">

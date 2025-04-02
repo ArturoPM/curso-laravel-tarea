@@ -3,9 +3,6 @@
 @section('titulo', 'Ver un post')
 
 @section('contenido')
-    <div class="text-center">
-        <h1 class="m-5">Ver un Posts</h1>
-    </div>
     <div class="row">
         <div class="col-md-12">
             <div class="mb-3">

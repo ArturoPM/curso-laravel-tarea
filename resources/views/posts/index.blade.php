@@ -3,9 +3,6 @@
 @section('titulo', 'Reporte de posts')
 
 @section('contenido')
-    <div class="text-center">
-        <h1 class="m-5">Reporte de Posts</h1>
-    </div>
     <div class="text-center mb-3">
         <a href="{{route('posts.create')}}" class="btn btn-primary w-100">Crear post</a>
     </div>
@@ -43,4 +40,5 @@
                 </tr>
             @endforelse
         </tbody>
+    </table>
 @endsection

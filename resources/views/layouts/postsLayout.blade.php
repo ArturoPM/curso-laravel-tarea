@@ -53,6 +53,9 @@
                 </div>
             </nav>
             <div>
+                <div class="text-center">
+                    <h1 class="m-5">@yield('titulo')</h1>
+                </div>
                 @yield('contenido')
             </div>
             <div class="footer bg-dark text-center text-white">
